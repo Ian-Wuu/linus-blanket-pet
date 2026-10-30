@@ -22,7 +22,7 @@ The host currently exposes one description field, without a locale setting. `pet
 
 ## Motions
 
-Idle, walk right, walk left, wave, little hop, blanket comfort, waiting, tending the blanket, checking the blanket, and sixteen look directions. The current preview shows all ten groups together on a blue sky background, without labels, in a seamless 12.8-second loop. Clouds stay in a separate top band, clear of every animation frame. Each group completes a whole number of cycles; preview timings are independent of the host app.
+Idle, walk right, walk left, wave, little hop, blanket comfort, waiting, tending the blanket, checking the blanket, and sixteen look directions. The current preview shows all ten groups together on a blue sky background, without labels, in a 6.4-second preview. Clouds stay in a separate top band, clear of every animation frame. Each action uses the original approved preview timings, without the extra slowdown or cycle stretching. The GIF repeats the full preview; individual actions can restart at that boundary. Host app timing remains controlled by the app.
 
 The v2 sheet is 1536 × 2288, with 192 × 208 cells, nine animation rows and two look rows (73 populated frames). Triggers and playback speed are controlled by the host. The look poses do not add physical mouse tracking by themselves.
 

@@ -1,57 +1,150 @@
 {
-  "duration_ms": 12800,
-  "frame_step_ms": 80,
+  "duration_ms": 6400,
+  "frame_step_ms": 20,
   "layout": "5 columns x 2 rows",
   "actions": [
     {
       "zh": "待机",
       "en": "Idle",
-      "cycles": 6
+      "frame_durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "cycle_ms": 1100
     },
     {
       "zh": "向右慢走",
       "en": "Walk right",
-      "cycles": 6
+      "frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "cycle_ms": 1060
     },
     {
       "zh": "向左慢走",
       "en": "Walk left",
-      "cycles": 6
+      "frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "cycle_ms": 1060
     },
     {
       "zh": "轻轻招手",
       "en": "Wave",
-      "cycles": 9
+      "frame_durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "cycle_ms": 700
     },
     {
       "zh": "小小跳跃",
       "en": "Little hop",
-      "cycles": 8
+      "frame_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "cycle_ms": 840
     },
     {
       "zh": "蹭毯安慰",
       "en": "Blanket comfort",
-      "cycles": 5
+      "frame_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "cycle_ms": 1220
     },
     {
       "zh": "等待回应",
       "en": "Waiting",
-      "cycles": 6
+      "frame_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "cycle_ms": 1010
     },
     {
       "zh": "整理毛毯",
       "en": "Tend the blanket",
-      "cycles": 8
+      "frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "cycle_ms": 820
     },
     {
       "zh": "检查毛毯",
       "en": "Check the blanket",
-      "cycles": 6
+      "frame_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "cycle_ms": 1030
     },
     {
       "zh": "十六方向环视",
       "en": "Look around",
-      "cycles": 2
+      "frame_durations_ms": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "cycle_ms": 3200
     }
   ]
 }
