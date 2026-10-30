@@ -1,0 +1,57 @@
+{
+  "duration_ms": 12800,
+  "frame_step_ms": 80,
+  "layout": "5 columns x 2 rows",
+  "actions": [
+    {
+      "zh": "待机",
+      "en": "Idle",
+      "cycles": 6
+    },
+    {
+      "zh": "向右慢走",
+      "en": "Walk right",
+      "cycles": 6
+    },
+    {
+      "zh": "向左慢走",
+      "en": "Walk left",
+      "cycles": 6
+    },
+    {
+      "zh": "轻轻招手",
+      "en": "Wave",
+      "cycles": 9
+    },
+    {
+      "zh": "小小跳跃",
+      "en": "Little hop",
+      "cycles": 8
+    },
+    {
+      "zh": "蹭毯安慰",
+      "en": "Blanket comfort",
+      "cycles": 5
+    },
+    {
+      "zh": "等待回应",
+      "en": "Waiting",
+      "cycles": 6
+    },
+    {
+      "zh": "整理毛毯",
+      "en": "Tend the blanket",
+      "cycles": 8
+    },
+    {
+      "zh": "检查毛毯",
+      "en": "Check the blanket",
+      "cycles": 6
+    },
+    {
+      "zh": "十六方向环视",
+      "en": "Look around",
+      "cycles": 2
+    }
+  ]
+}
